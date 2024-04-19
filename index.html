@@ -1,0 +1,76 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            
+            <div class = "home">
+                <h1>HOME</h1>
+                    <h2 id = "home-score">0</h2>
+                    <button class = "btn" id="home-0-btn" value="0">0</button>
+                    <button class = "btn" id="home-15-btn" value="15">15</button>
+                    <button class = "btn" id="home-30-btn" value="30">30</button>
+                    <button class = "btn" id="home-40-btn" value="40">40</button>
+                    <button class = "btn" id="home-adv-btn" value="Adv">Adv</button>
+                    <div class = "sets-games">
+                        <div class="games">
+                            <button id= "home-game-sub" class = "btn2" value="-1" >-</button>
+                            <h3>G</h3>
+                            <div>
+                                <button id= "home-game-add" class = "btn2" value="1">+</button>
+                            </div>
+                        </div>
+                        <div class="sets">
+                            <button id= "home-set-sub" class = "btn2" value="-1">-</button>
+                            <h3>S</h3>
+                            <div>
+                                <button id= "home-set-add" class = "btn2" value="1">+</button>
+                            </div>
+                        </div>
+                    </div>                    
+            </div>
+            
+            <div class="score-global">
+                <h1>SETS</h1>
+                <div class="sets-global">
+                    <h1 id= "home-set"1>0</h1>
+                    <h1> - </h1>
+                    <h1 id= "guest-set">0</h1>    
+                </div>
+
+                <h1>GAMES</h1>
+                <div class="games-global">
+                    <h1 id= "home-game">0</h1>
+                    <h1> - </h1>
+                    <h1 id= "guest-game">0</h1>    
+                </div>
+            </div>    
+            
+            <div class = "guest">
+                <h1>GUEST</h1>
+                <div>
+                    <h2 id = "guest-score">0</h2>
+                    <button class = "btn" id="guest-0-btn" value="0">0</button>
+                    <button class = "btn" id="guest-15-btn" value="15">15</button>
+                    <button class = "btn" id="guest-30-btn" value="30">30</button>
+                    <button class = "btn" id="guest-40-btn" value="40">40</button>
+                    <button class = "btn" id="guest-adv-btn" value="Adv">Adv</button>
+                    <div class = "sets-games">
+                        <div class="games">
+                            <button id = "guest-game-sub" class = "btn2" value="-1">-</button>
+                            <h3>G</h3>
+                            <button id = "guest-game-add" class = "btn2" value="1">+</button>
+                        </div>
+                        <div class="sets">
+                            <button id = "guest-set-sub" class = "btn2" value="-1">-</button>
+                            <h3>S</h3>
+                            <button id = "guest-set-add" class = "btn2" value="1">+</button>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
