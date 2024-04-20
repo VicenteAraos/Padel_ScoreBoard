@@ -45,6 +45,7 @@ h3{
     display: flex;
     justify-content: space-around;
     max-width: 1000px;
+    max-height: 450px;
 }
 
 .btn{
@@ -70,6 +71,7 @@ h3{
     margin: auto 0;
     padding: 0px 10px;
     min-width: 160px;
+    max-height: 450px;
 }
 
 
@@ -92,6 +94,7 @@ h3{
     border: 4px solid var(--black);
     margin-top:20px;
     border-radius: 20px;
+    max-height: 450px;
     
 }
 
